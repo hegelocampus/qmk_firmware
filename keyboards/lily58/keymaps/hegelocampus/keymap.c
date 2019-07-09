@@ -150,10 +150,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, RESET,   \
   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, \
 <<<<<<< HEAD
+<<<<<<< HEAD
   XXXXXXX, XXXXXXX, XXXXXXX, DVORAK,  XXXXXXX, GAME,                      XXXXXXX, XXXXXXX, RGB_TOG, RGB_HUI, RGB_SAI, RGB_VAI, \
 =======
   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, GAME,                      XXXXXXX, XXXXXXX, RGB_TOG, RGB_HUI, RGB_SAI, RGB_VAI, \
 >>>>>>> Setup personal keymap for lily58
+=======
+  XXXXXXX, XXXXXXX, XXXXXXX, DVORAK,  XXXXXXX, GAME,                      XXXXXXX, XXXXXXX, RGB_TOG, RGB_HUI, RGB_SAI, RGB_VAI, \
+>>>>>>> Fixed game and added N-key roll over
   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, RGB_MOD, RGB_HUD, RGB_SAD, RGB_VAD,\
                              _______, _______, _______, _______, _______, _______, _______, _______ \
   )
