@@ -51,9 +51,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_SAT_STEP 17
 #define RGBLIGHT_VAL_STEP 17
 <<<<<<< HEAD
+<<<<<<< HEAD
 #define FORCE_NKRO
 =======
 >>>>>>> Setup personal keymap for lily58
+=======
+#define FORCE_NKRO
+>>>>>>> Fixed game and added N-key roll over
 
 // Underglow
 /*
