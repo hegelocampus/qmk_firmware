@@ -33,9 +33,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define USE_SERIAL_PD2
 #define DISABLE_SPACE_CADET_ROLLOVER
 
+<<<<<<< HEAD
 #define PERMISSIVE_HOLD
 //#define TAPPING_FORCE_HOLD
 #define TAPPING_TERM 250
+=======
+//#define PERMISSIVE_HOLD
+//#define TAPPING_FORCE_HOLD
+#define TAPPING_TERM 100
+>>>>>>> Setup personal keymap for lily58
 
 #undef RGBLED_NUM
 #define RGBLIGHT_ANIMATIONS
@@ -44,7 +50,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_HUE_STEP 10
 #define RGBLIGHT_SAT_STEP 17
 #define RGBLIGHT_VAL_STEP 17
+<<<<<<< HEAD
 #define FORCE_NKRO
+=======
+>>>>>>> Setup personal keymap for lily58
 
 // Underglow
 /*
