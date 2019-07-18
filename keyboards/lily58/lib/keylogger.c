@@ -32,8 +32,16 @@ void set_keylog(uint16_t keycode, keyrecord_t *record) {
     }
   }
 
-  keylogs_str[keylogs_str_idx] = name;
-  keylogs_str_idx++;
+  if (name == 'B'){
+    if (keylogs_str_idx > 0){
+      keylogs_str_idx--;
+    }
+    keylogs_str[keylogs_str_idx] = 0;
+  }
+  else{
+    keylogs_str[keylogs_str_idx] = name;
+    keylogs_str_idx++;
+  }
 }
 
 const char *read_keylog(void) {
