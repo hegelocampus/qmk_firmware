@@ -34,6 +34,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DISABLE_SPACE_CADET_ROLLOVER
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #define PERMISSIVE_HOLD
 //#define TAPPING_FORCE_HOLD
 #define TAPPING_TERM 250
@@ -42,6 +43,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define TAPPING_FORCE_HOLD
 #define TAPPING_TERM 100
 >>>>>>> Setup personal keymap for lily58
+=======
+#define PERMISSIVE_HOLD
+//#define TAPPING_FORCE_HOLD
+#define TAPPING_TERM 80 
+>>>>>>> Adds small changes to lily58/keymaps/hegelocampus/keymap.c
 
 #undef RGBLED_NUM
 #define RGBLIGHT_ANIMATIONS

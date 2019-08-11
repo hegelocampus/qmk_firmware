@@ -91,8 +91,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   _______, KC_F11,  KC_F12,  KC_LCBR, KC_RCBR, _______,                   _______, KC_UNDS, KC_PLUS, KC_PIPE, KC_COLON, _______,\
 =======
   _______, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,                     KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,   _______,\
+<<<<<<< HEAD
   _______, KC_F11,  KC_F12,  _______, _______, _______,                   _______, KC_UNDS, KC_PLUS, KC_PIPE, KC_COLON, _______,\
 >>>>>>> Setup personal keymap for lily58
+=======
+  _______, KC_F11,  KC_F12,  KC_LCBR, KC_RCBR, _______,                   _______, KC_UNDS, KC_PLUS, KC_PIPE, KC_COLON, KC_DEL,\
+>>>>>>> Adds small changes to lily58/keymaps/hegelocampus/keymap.c
   _______, KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC,                   KC_CIRC, KC_AMPR, KC_ASTR, KC_LBRC, KC_RBRC,  _______,\
   _______, _______, _______, _______, _______, _______, KC_PGDN, KC_PGUP, KC_TILD, KC_UNDS, _______, KC_LCBR, KC_RCBR,  KC_PIPE,\
                              _______, _______, _______, _______, _______, _______, _______, _______\
@@ -115,10 +119,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_RAISE] = LAYOUT( \
   _______, _______, _______, _______, _______, _______,                     _______, _______, _______,  _______, _______, _______, \
 <<<<<<< HEAD
+<<<<<<< HEAD
   KC_GRV,  _______, _______, KC_LBRC, KC_RBRC, _______,                     _______, KC_MINS,  KC_EQL , KC_BSLS, KC_SCLN, _______, \
 =======
   KC_GRV,  _______, _______, _______, _______, _______,                     _______, KC_MINS,  KC_EQL , KC_BSLS, KC_SCLN, _______, \
 >>>>>>> Setup personal keymap for lily58
+=======
+  KC_GRV,  _______, _______, KC_LBRC, KC_RBRC, _______,                     _______, KC_MINS,  KC_EQL , KC_BSLS, KC_SCLN, _______, \
+>>>>>>> Adds small changes to lily58/keymaps/hegelocampus/keymap.c
   _______, KC_1,    KC_2,    KC_3,    KC_4,    KC_5,                        KC_6,    KC_7,    KC_8,     KC_9,    KC_0,    _______, \
   _______, _______, _______, _______, _______, _______,  _______, _______,  KC_PGDN, KC_PGUP, KC_GRAVE, KC_LBRC, KC_RBRC, KC_BSLS, \
                              _______, _______, _______,  _______, _______,  _______, _______, _______ \
