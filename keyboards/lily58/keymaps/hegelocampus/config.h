@@ -46,8 +46,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 =======
 #define PERMISSIVE_HOLD
 //#define TAPPING_FORCE_HOLD
+<<<<<<< HEAD
 #define TAPPING_TERM 80 
 >>>>>>> Adds small changes to lily58/keymaps/hegelocampus/keymap.c
+=======
+#define TAPPING_TERM 250
+>>>>>>> Adjust tap_mod settings
 
 #undef RGBLED_NUM
 #define RGBLIGHT_ANIMATIONS
