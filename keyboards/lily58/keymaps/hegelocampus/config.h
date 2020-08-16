@@ -28,14 +28,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define MASTER_RIGHT
 #define EE_HANDS
 
-#define SSD1306OLED
-
 #define USE_SERIAL_PD2
-#define DISABLE_SPACE_CADET_ROLLOVER
 
+#define DISABLE_SPACE_CADET_ROLLOVER
 #define PERMISSIVE_HOLD
 //#define TAPPING_FORCE_HOLD
-#define TAPPING_TERM 80 
+#define TAPPING_TERM 80
 
 #undef RGBLED_NUM
 #define RGBLIGHT_ANIMATIONS
@@ -53,3 +51,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_ANIMATIONS
 #define RGBLIGHT_SLEEP
 */
+
